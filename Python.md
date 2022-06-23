@@ -39,29 +39,48 @@ print("Hello world!")--->
 <!---# 4. Extra ( in print function removed.--->
       print("New lines can be created with a backslash and n.")
 
-
+       
 <!---# Interactive Coding Exercise 3: Input Fuction--->
-# Write a program that prints the number of characters in a user's name. You might need to Google for a function that calculates the length of a string.
-print( len( input("What is your name?")))
-
-
+<!---# Write a program that prints the number of characters in a user's name. You might need to Google for a function that calculates the length of a string.--->
+       print( len( input("What is your name?"))) --->
+       6 <!---calculates the length of characters in the input--->
+       ______________________________
+       
 
 <!---# Interactive Coding Exercise 4: Variables--->
-# 🚨 Don't change the code below 👇
-a = input("a: ")
-b = input("b: ")
-# 🚨 Don't change the code above 👆
+<!---# 🚨 Don't change the code below 👇--->
+       a = input("a: ")
+       b = input("b: ")
+<!---# 🚨 Don't change the code above 👆--->
 
-####################################
-#Write your code below this line 👇
-c = a
-a = b
-b = c
-#
-
-# IndentationError: unexpected indent
-# SyntaxError: EOL while scanning string literal
-# NameError: name 'nama' is not defined
+<!---#Write your code below this line 👇--->
+       c = a
+       a = b
+       b = c
+       _____________________________
+       a = 100
+       b = 5
+       --->
+       a = 5
+       b = 100
+       _____________________________
+       _
+       name = input("What is your name?) <!--- input would be Jeremy / name then would = Jeremy, so Jeremy would be printed. --->
+       print(name) 
+       ---> 
+       Jeremy
+       _____________________________
+       print( len( input("What is your name?") ) ) <!---the action would print the length of characters of the name inputed. --->
+       name = input("What is your name?") <!--- name inputed would be Jeremy --->
+       length = len(name) <!--- length = len(Jeremy) --->
+       print(length) <!--- 6 would be printed --->
+       --->
+       _____________________________
+       
+       Errors Encountered
+<!---# IndentationError: unexpected indent--->
+<!---# SyntaxError: EOL while scanning string literal--->
+<!---# NameError: name 'nama' is not defined--->
 
 <!---
 JtheCoder4/JtheCoder4 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
